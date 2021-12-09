@@ -1,15 +1,18 @@
-// TESTING PUSH TO A NEW BRANCH
+// Updated factory function to class for the Odin Project on 12/8/2021
 
 
 // Book constructor function:
 
-const Book = function(title, author, year, read, bookId) {
+class Book {
 
-	this.title = title;
-	this.author = author;
-	this.year = year;
-	this.read = read;
-	this.bookId = bookId;
+	constructor(title, author, year, read, bookId) {
+		this.title = title;
+		this.author = author;
+		this.year = year;
+		this.read = read;
+		this.bookId = bookId;
+	}
+
 }
 
 let library = [];
