@@ -1,0 +1,26 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "alert('test')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jestasgameland/library.git"
+  },
+  "keywords": [
+    "library",
+    "test"
+  ],
+  "author": "Brendon Albertson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jestasgameland/library/issues"
+  },
+  "homepage": "https://github.com/jestasgameland/library#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
